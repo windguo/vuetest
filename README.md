@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Vue或React多页应用脚手架
 
 ---
@@ -321,3 +322,6 @@ react-multpage : [https://github.com/MeCKodo/react-multipage](https://github.com
 
 ---
 Have a nice day
+=======
+# vuetest
+>>>>>>> 24e57f638e6a93049436a60f68af14c464064e66
