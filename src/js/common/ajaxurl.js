@@ -1,5 +1,5 @@
-const server1 = 'https://production.server.com';
-const server2 = 'https://dev.server.com';
+const server1 = 'http://www.jianjie8.com';
+const server2 = 'http://www.jianjie8.com';
 
 let useServer = null;
 if(NODE_ENV === 'production') {

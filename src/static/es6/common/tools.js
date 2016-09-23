@@ -52,16 +52,24 @@
 /* 2 */
 /***/ function(module, exports) {
 
-	"use strict";
+	'use strict';
 
 	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
+	exports.getJson = getJson;
 	exports.say = say;
-	// 你封装的工具库
-
+	// 封装ajax方法
+	function getJson(url, fn) {
+		$.ajax({
+			url: url,
+			type: 'get',
+			async: false,
+			dataType: 'json',
+			success: fn
+		});
+	}
 	function say(msg) {
-		console.log(msg);
 		console.log(msg);
 	}
 

@@ -56,8 +56,8 @@
 	Object.defineProperty(exports, "__esModule", {
 		value: true
 	});
-	var server1 = 'https://production.server.com';
-	var server2 = 'https://dev.server.com';
+	var server1 = 'http://www.jianjie8.com';
+	var server2 = 'http://www.jianjie8.com';
 
 	var useServer = null;
 	if (false) {
