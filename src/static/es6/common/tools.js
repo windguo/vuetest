@@ -70,7 +70,7 @@
 		});
 	}
 	function say(msg) {
-		console.log(msg);
+		alert(msg);
 	}
 
 /***/ }

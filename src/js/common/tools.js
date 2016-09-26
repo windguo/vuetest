@@ -9,5 +9,5 @@ export function getJson(url,fn){
 	});
 }
 export function say(msg) {
-	console.log(msg);
+	alert(msg);
 }

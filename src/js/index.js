@@ -6,8 +6,8 @@ var V = new Vue({
 	methods: {
 		sayHi() {
 			require.ensure([], function () {
-				// var say = require('../tools').say;
-				// say('hi');
+				var say = require('./common/tools').say;
+				say('hi');
 			});
 		},
 		tap() {

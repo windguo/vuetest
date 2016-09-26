@@ -89,7 +89,7 @@
 		});
 	}
 	function say(msg) {
-		console.log(msg);
+		alert(msg);
 	}
 
 /***/ },
@@ -111,8 +111,8 @@
 		methods: {
 			sayHi: function sayHi() {
 				!/* require.ensure */(function () {
-					// var say = require('../tools').say;
-					// say('hi');
+					var say = __webpack_require__(2).say;
+					say('hi');
 				}(__webpack_require__));
 			},
 			tap: function tap() {
